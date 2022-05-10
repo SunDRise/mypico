@@ -78,6 +78,6 @@ public class SiteUtility
 		
 		public void closeSite(RemoteWebDriver driver)
 		{
-			driver.close();
+			driver.quit();
 		}
 }
